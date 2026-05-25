@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // HAPUS dashboard.php karena GitHub Pages tidak support PHP
+    // Untuk halaman dashboard.html
     if (window.location.pathname.includes('dashboard.html')) {
         setInterval(refreshStock, 30000);
     }
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
 });
 
 // Dummy refresh stock
